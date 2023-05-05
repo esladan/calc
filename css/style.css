@@ -1,0 +1,80 @@
+body{
+    background-color: black;
+    color: white;
+    display: flex;
+}
+
+main{
+    width: 80%;
+    margin: auto;
+}
+
+.display{
+    background-color: white;
+    height: 25vh;
+}
+.display .top{
+    width: 95%;
+    height: 50%;
+    text-align: right;
+    font-size: 45px;
+    font-weight: bold;
+    color: black;
+    padding:0 10px;
+}
+.display input{
+    border: none;
+    width: 95%;
+    margin: 0;
+    padding: 0;
+    height: 47%;
+    text-align: right;
+    font-size: 45px;
+    font-weight: bold;
+    padding:0 10px;
+
+}
+.display input:current{
+    border: none;
+}
+
+.calc-btns{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 5px;
+    height: 70vh;
+}
+
+.left-btns{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    gap: 5px;
+}
+.right-btns{
+    display: grid;
+    grid-template-columns: 1fr ; 
+    gap: 5px;
+}
+
+
+.btn{  
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.413);
+    display: flex;
+}
+
+.btn:hover{
+    border: 1px solid rgba(255, 255, 255, 0.301);
+    background-color: rgba(255, 255, 255, 0.411);
+}
+
+.btn p{
+    font-size: 2.2rem;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: auto;
+}
+
+
+
